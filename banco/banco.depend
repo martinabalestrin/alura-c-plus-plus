@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1742440682 source:c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\conta.cpp
+	<iostream>
+	"Conta.hpp"
+
+1742440930 c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\conta.hpp
+	<string>
+	"Titular.hpp"
+
+1742441143 c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\titular.hpp
+	<string>
+	"Cpf.hpp"
+
+1742441125 c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\cpf.hpp
+	<string>
+
+1742441125 source:c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\cpf.cpp
+	<iostream>
+	"Cpf.hpp"
+
+1742440994 source:c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\titular.cpp
+	<iostream>
+	"Titular.hpp"
+
+1742440306 source:c:\users\roberto\desktop\faculdade\sem3 - ap oo\banco\main.cpp
+	<iostream>
+	<string>
+	<locale.h>
+	"Conta.hpp"
+	"Titular.hpp"
+	"Cpf.hpp"
+
