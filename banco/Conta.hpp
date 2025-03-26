@@ -12,7 +12,7 @@ class Conta {
         Conta(std::string numero, Titular titular);
 
         // Destrutor
-        ~Conta();
+        virtual ~Conta();
 
         // Métodos
         void sacar(float valorASacar);
@@ -20,15 +20,19 @@ class Conta {
         float recuperaSaldo() const;
 
         static int recuperaNumeroDeContas();
+        virtual float taxaDeSaque() const = 0;
 
     private:
 
         // Atributos
         string numero;
         Titular titular;
-        float saldo;
 
         // Contador
         static int numeroDeContas;
+
+    protected:
+        // Atributo
+        float saldo;
 };
 

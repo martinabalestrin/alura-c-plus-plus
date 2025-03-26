@@ -10,6 +10,8 @@ Conta::Conta(string numero, Titular titular):
 }
 
 Conta::~Conta() {
+
+    cout << "Destrutor da conta." << endl;
     numeroDeContas--;
 }
 
@@ -20,12 +22,15 @@ void Conta::sacar(float valorASacar) {
         return;
     }
 
-    if (valorASacar > saldo) {
+    float tarifaDeSaque = valorASacar * taxaDeSaque();
+    float valorDoSaque = valorASacar + tarifaDeSaque;
+
+    if (valorDoSaque > saldo) {
         cout << "Saldo insuficiente." << endl;
         return;
     }
 
-    saldo -= valorASacar;
+    saldo -= valorDoSaque;
 }
 
 void Conta::depositar(float valorADepositar) {

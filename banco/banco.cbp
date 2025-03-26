@@ -32,10 +32,24 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Autenticavel.cpp" />
+		<Unit filename="Autenticavel.hpp" />
+		<Unit filename="Caixa.cpp" />
+		<Unit filename="Caixa.hpp" />
 		<Unit filename="Conta.cpp" />
 		<Unit filename="Conta.hpp" />
+		<Unit filename="ContaCorrente.cpp" />
+		<Unit filename="ContaCorrente.hpp" />
+		<Unit filename="ContaPoupanca.cpp" />
+		<Unit filename="ContaPoupanca.hpp" />
 		<Unit filename="Cpf.cpp" />
 		<Unit filename="Cpf.hpp" />
+		<Unit filename="Funcionario.cpp" />
+		<Unit filename="Funcionario.hpp" />
+		<Unit filename="Gerente.cpp" />
+		<Unit filename="Gerente.hpp" />
+		<Unit filename="Pessoa.cpp" />
+		<Unit filename="Pessoa.hpp" />
 		<Unit filename="Titular.cpp" />
 		<Unit filename="Titular.hpp" />
 		<Unit filename="main.cpp" />

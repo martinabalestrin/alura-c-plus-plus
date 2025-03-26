@@ -30,3 +30,94 @@
 	"Titular.hpp"
 	"Cpf.hpp"
 
+1743014771 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\conta.cpp
+	<iostream>
+	"Conta.hpp"
+
+1743014574 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\conta.hpp
+	<string>
+	"Titular.hpp"
+
+1743019962 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\titular.hpp
+	<string>
+	"Pessoa.hpp"
+	"Cpf.hpp"
+	"Autenticavel.hpp"
+
+1742441125 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\cpf.hpp
+	<string>
+
+1742441125 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\cpf.cpp
+	<iostream>
+	"Cpf.hpp"
+
+1743019874 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\titular.cpp
+	<iostream>
+	"Titular.hpp"
+
+1743017210 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\funcionario.cpp
+	"Funcionario.hpp"
+	<iostream>
+
+1743017210 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\funcionario.hpp
+	"Cpf.hpp"
+	"Pessoa.hpp"
+	<string>
+
+1742519504 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\pessoa.hpp
+	"Cpf.hpp"
+	<string>
+
+1743019840 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\main.cpp
+	<iostream>
+	<string>
+	<locale.h>
+	"Conta.hpp"
+	"Titular.hpp"
+	"Cpf.hpp"
+	"Funcionario.hpp"
+	"ContaPoupanca.hpp"
+	"ContaCorrente.hpp"
+	"Caixa.hpp"
+	"Gerente.hpp"
+
+1742966602 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\pessoa.cpp
+	"Pessoa.hpp"
+	<iostream>
+
+1743017331 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\contapoupanca.cpp
+	<iostream>
+	"ContaPoupanca.hpp"
+
+1743017331 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\contapoupanca.hpp
+	"Conta.hpp"
+
+1743017364 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\contacorrente.cpp
+	<iostream>
+	"ContaCorrente.hpp"
+
+1743017331 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\contacorrente.hpp
+	"Conta.hpp"
+
+1743017210 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\caixa.cpp
+	"Caixa.hpp"
+	<iostream>
+
+1743017582 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\caixa.hpp
+	"Funcionario.hpp"
+
+1743020022 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\gerente.cpp
+	"Gerente.hpp"
+	<iostream>
+
+1743020022 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\gerente.hpp
+	"Funcionario.hpp"
+	"Autenticavel.hpp"
+
+1743019522 c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\autenticavel.hpp
+	<string>
+
+1743019812 source:c:\users\roberto\desktop\alura\alura-c-plus-plus\banco\autenticavel.cpp
+	"Autenticavel.hpp"
+	<iostream>
+
